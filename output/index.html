@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>        
+<meta charset="utf-8">        
+<title>Markdown</title>        
+<link rel="stylesheet" href="github-markdown.css">        
+</head>
+<body>
+<article class="markdown-body"><ul><li>
+<a href="#tag1">1. MarkDown书写规范</a>
+</li>
+<li>
+<a href="#tag2">2. 概述</a>
+<ul>
+<li>
+<a href="#tag3">2.1. 起源</a>
+</li>
+<li>
+<a href="#tag4">2.2. 宗旨</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#tag5">3. 全局规范</a>
+<ul>
+<li>
+<a href="#tag6">3.1. 发展</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#tag7">4. 语法参见</a>
+</li>
+<li>
+<a href="#tag8">5. 示例</a>
+<ul>
+<li>
+<a href="#tag9">5.1. 标题</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#tag10">6. 一级标题</a>
+<ul>
+<li>
+<a href="#tag11">6.1. 二级标题</a>
+<ul>
+<li>
+<a href="#tag12">6.1.1. 三级标题</a>
+<ul>
+<li>
+<a href="#tag13">6.1.1.1. 四级标题</a>
+<ul>
+<li>
+<a href="#tag14">6.1.1.1.1. 五级标题</a>
+<ul>
+<li>
+<a href="#tag15">6.1.1.1.1.1. 六级标题</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#tag16">6.2. 强调</a>
+</li>
+<li>
+<a href="#tag17">6.3. 引用</a>
+</li>
+<li>
+<a href="#tag18">6.4. 列表</a>
+</li>
+<li>
+<a href="#tag19">6.5. 代码</a>
+</li>
+<li>
+<a href="#tag20">6.6. 链接</a>
+</li>
+<li>
+<a href="#tag21">6.7. 图片</a>
+</li>
+</ul>
+</li>
+</ul><h1 id="tag1">MarkDown书写规范</h1><p>写文档好帮手，轻量级标记语言 Markdown</p><h1 id="tag2">概述</h1><h2 id="tag3">起源</h2><p>Markdown是<a href="http://daringfireball.net/projects/markdown/syntax" title="">Daring Fireball</a>的作者John Gruber发明，身为Blogger，可能他也觉得传统的HTML有些复杂吧，退一步来讲，若是一个毫无计算机基础的Blogger，根本也没必要去掌握那些复杂的标签语言知识。</p><h2 id="tag4">宗旨</h2><p>Markdown 的目标是实现「易读易写」，成为一种适用于网络的书写语言。</p><p>可读性，无论如何，都是最重要的。一份使用 Markdown 格式撰写的文件应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，而最大灵感来源其实是纯文本电子邮件的格式。</p><p>总之， Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。</p><h1 id="tag5">全局规范</h1><p>MarkDown 文件均使用<code></code><code>.md</code><code></code>作为后缀 *(小写字母)*</p><p>普通文本换行，使用行末尾<code></code><code>2空格</code><code></code>触发</p><h2 id="tag6">发展</h2><p>越来越多的软件和服务支持Markdown语法，应该说，Mac上大多数的写作软件都支持它。在线工具同样有很多，如果你的博客基于Wordpress或是blogger，它同样支持发布。</p><p>不仅仅是写博客，一切文章都可以用Markdown语法来写，比如说你想将一个标题加大字体，只需要在相应文字前面加上一个#或是在它的下一行加上一些等号即可，还有比这更简单的调整格式方式吗？</p><h1 id="tag7">语法参见</h1><p><a href="http://daringfireball.net/projects/markdown/syntax" title="">官方语法说明</a></p><h1 id="tag8">示例</h1><hr color=#CCCCCC size=1 /><h2 id="tag9">标题</h2><h1 id="tag10">一级标题</h1><h2 id="tag11">二级标题</h2><h3 id="tag12">三级标题</h3><h4 id="tag13">四级标题</h4><h5 id="tag14">五级标题</h5><h6 id="tag15">六级标题</h6><h2 id="tag16">强调</h2><ul><li><p> <strong>粗体</strong></p></li><li><p> <em>斜体</em></p></li></ul><h2 id="tag17">引用</h2><p>上面的横线用三个-表示</p><blockquote><p> 区块引用</p></blockquote><h2 id="tag18">列表</h2><ul><li> red</li><li> green</li><li> blue</li></ul><p>+ red+ green+ blue</p><ul><li> red</li><li> green</li><li> blue</li></ul><ol><li> red</li><li> green</li><li> blue</li><li> hhh</li></ol><ul><li> 一个列表包含一个区块</li></ul><blockquote><p> 区块内容 更多内容</p></blockquote><h2 id="tag19">代码</h2><p>代码的插入方式 <code>printf('n');</code></p><pre><code>function method()
+{
+    alert("javascript");
+}
+</code></pre><pre><code>class Test{
+    public static void main(String argc[]){
+        System.out.println("java");
+    }
+}
+</code></pre><pre><code>class Test{
+    public static void main()
+    {
+        Console.WriteLine("C#");
+    }
+}
+</code></pre><h2 id="tag20">链接</h2><p>行内连接 <a href="https://github.com/" title="">GitHub</a> 的链接</p><h2 id="tag21">图片</h2><p><img alt="shiyanlou logo" src="https://static.shiyanlou.com/img/logo_03.png" title="" /></p>
+</article>
+</body>
+</html>
